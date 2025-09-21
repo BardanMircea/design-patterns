@@ -64,8 +64,6 @@ GRANT ALL PRIVILEGES ON design_patterns.* TO 'design_patterns_user'@'localhost';
 FLUSH PRIVILEGES;
 `
 
-Par défaut, le projet est configuré pour root/root. Adaptez vos identifiants dans application.properties et le fichier `.env` si nécessaire.
-
 
 ## 2) Configuration de l’application
 
