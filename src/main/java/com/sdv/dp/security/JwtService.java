@@ -1,6 +1,5 @@
-package com.sdv.dp.service;
+package com.sdv.dp.security;
 
-import com.sdv.dp.security.TokenGenerationStrategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
