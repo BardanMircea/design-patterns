@@ -1,6 +1,7 @@
 # Design-patterns-app
 
 Application Spring Boot 3 (Java 21) avec JWT, rôles (ROLE_USER / ROLE_ADMIN), MySQL, architecture Controller → Service → Repository, validation des entrées, et protections anti-brute force + rate limiting/throttling.
+
 Authentification JWT : JwtTokenStrategy, JwtService, JwtAuthenticationFilter émettent et valident les jetons.
 
 ## Fonctionnalités implémentées:
