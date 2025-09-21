@@ -53,6 +53,6 @@ public class JwtTokenStrategy implements TokenGenerationStrategy{
     }
 
     private Jws<Claims> parse(String token) {
-        return Jwts.parser().setSigningKey(key).build().parseClaimsJws(token);
+        return Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token);
     }
 }
