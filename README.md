@@ -289,7 +289,7 @@ echo $TOKEN
 
 `ADMIN_TOKEN=$(curl -s -X POST http://localhost:8080/api/auth/login \
 -H "Content-Type: application/json" \
--d '{"email":"admin@example.com","password":"AdminPassword1!"}' | jq -r .token)
+-d '{"email":"admin@email.com","password":"AdminPassword1!"}' | jq -r .token)
 curl -H "Authorization: Bearer $ADMIN_TOKEN" http://localhost:8080/api/admin/panel
 `
 
