@@ -47,9 +47,9 @@ Authentification JWT : JwtTokenStrategy, JwtService, JwtAuthenticationFilter ém
 
 ###  Pré-requis :
 
-Java 17+
-Maven 3.9+ (ou le wrapper ./mvnw)
-MySQL 8+
+Java 17+ \n
+Maven 3.9+ (ou le wrapper ./mvnw) \n
+MySQL 8+ \n
 IntelliJ IDEA (Community ou Ultimate)
 
 
